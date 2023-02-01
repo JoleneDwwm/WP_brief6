@@ -20,19 +20,24 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'bdd_brief6' );
+define( 'DB_NAME', 'lopia4' );
+
 
 /** Database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'lopia4' );
+
 
 /** Database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'i6m7va' );
+
 
 /** Database hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'sql25' );
+
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8mb4' );
+
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
@@ -48,14 +53,22 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         '* co5Gddm`_ht0<`p7LxAT-0qHe]YN|RS;AOm.W>:,d[kXyr+~:2fU/%+c73XfaG' );
-define( 'SECURE_AUTH_KEY',  'S1/O:,TV`7=M)6jlN*XzFq2ndwoR{Zos/;rrRRQJs~odvF,m0Z_}NO9wZf;](CCr' );
-define( 'LOGGED_IN_KEY',    '7/fh(&*9*Y_<+lhvgmE4p]wzhigR2Dg|,!AX-njbf_dB$J%-;z7ojVv)rGG9}mx8' );
-define( 'NONCE_KEY',        'w80ZC[R3M]s}=sRZ?[Jnu</.@ELvIpGK(e~#Nr-/T{/U|H0*2uTelSJIjfP?J+{=' );
-define( 'AUTH_SALT',        'C+|>%~6n9HF+:679xf(ZgSP`@Y,=dk9Lb], p.z>vcQS$H9_dam=j*Xa3frFxdoU' );
-define( 'SECURE_AUTH_SALT', '.`Y~/`o[YCd)~=0p<E/$j4`dl55x_yQ]Sp9u!TYOS.rDCkSC<[blR]t9]XZwL4Y~' );
-define( 'LOGGED_IN_SALT',   '{DPS>=KURGq[09^ax.P+/NpI`%NzEL0v_&dD9b{$G_I8B5L+Q@w8P-`L@;I3Pgv?' );
-define( 'NONCE_SALT',       'U$4_B[aE9HYrUohkPa7Es=QjO: B!9W#byUbK[(vs9;,Eur^V.jb^j4PRtQO01D;' );
+define( 'AUTH_KEY',         '=76(5lvz72x,|rJ*DmyK=S[a!,om nUq{<VJQ&<l%e|z^+oKF%87|o{3UQ%J)Y$S' );
+
+define( 'SECURE_AUTH_KEY',  'yK;r6>Di>1:4:#]qofLS84[ftsBWRfIZL #[&>U7E*#uj&OtByK3@Bw`<gWH2 ,s' );
+
+define( 'LOGGED_IN_KEY',    'Ow8uVH-ExuCtdS]3IIa#+T9[O&Zz0Os3<k[KkA?4T5@[1>d_Aie[@RzoT2*yU)l9' );
+
+define( 'NONCE_KEY',        'ma6BqU2NSw.>li`v2{i$#@MKBUME=c2_f<n(P%-*:mCKy9(^]AV~N[VH@%u8hFIC' );
+
+define( 'AUTH_SALT',        '4!v`R(*qmPQY&%Xmxl_/4$f|YZ(Z3CVS@rHeq`x@p7,Qs$vI2`bJ++b?d2+C!2mi' );
+
+define( 'SECURE_AUTH_SALT', 'N9vKB1bIX0CE: W~sF?&UOLfJN5JxF[y:mGk(lki=TPR2KE5&$n[uNc<|n-UQnyE' );
+
+define( 'LOGGED_IN_SALT',   'DU?3];o*r2qb@GF^(gfrAMf)(?S32s%#K+fCXp=wXh4,@#RNS,A/ov!EA8}k~K<r' );
+
+define( 'NONCE_SALT',       'th-@oC%t,1n<HI:?mo3M$EBMjRe#(Z-ap&3(k[=JT-&FJRoiD5ScLH]FfudF$pYG' );
+
 
 /**#@-*/
 
@@ -66,6 +79,7 @@ define( 'NONCE_SALT',       'U$4_B[aE9HYrUohkPa7Es=QjO: B!9W#byUbK[(vs9;,Eur^V.j
  * a unique prefix. Only numbers, letters, and underscores please!
  */
 $table_prefix = 'wp_';
+
 
 /**
  * For developers: WordPress debugging mode.
