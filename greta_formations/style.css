@@ -1,0 +1,427 @@
+/*
+Theme Name: Greta Formations
+Theme URI: http://
+Author: Développeurs DWWM 2022-2023
+Author URI: http://
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: greta
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
+.custom-link{
+    text-decoration: none;
+}
+
+/* css de la navbar */
+
+.navbar {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  border-bottom: 2px solid #f7f7f7;
+  padding-bottom: 10px;
+}
+
+.nav-item {
+  border-left: 1px solid #f7f7f7;
+  padding-left: 15px;
+}
+
+.nav-item a {
+  font-size: 20px;
+}
+
+.navbar-brand img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.navbar-brand img {
+  height: auto;
+  display: block;
+  margin-top: 15px;
+}
+
+.nav-item {
+  background-color: #f7f7f7;
+  transition: background-color 0.3s ease-in-out;
+  border-radius: 3px;
+}
+
+.nav-item:hover {
+  background-color: #eee;
+}
+
+/* css body */
+
+body {
+  margin-top: 130px
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+} 
+
+.wp-block-cover__image-background {
+    margin: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2em;
+}
+
+.item-header {
+    position:relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+    text-decoration: overline;
+}
+
+.wp-block-column a {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(199, 199, 199);
+    font-weight: bold;
+}
+
+.wp-block-latest-posts__post-title a{
+    color: black;
+}
+
+.wp-image-321 { /* image en bas de limage head de la page acceuil */
+    margin-top: 10px;
+    border-radius: 2em;
+}
+
+.wp-image-405 {
+    border-radius: 2em;
+}
+
+.has-text-align-center.has-white-color.has-text-color a {
+  font-size: 25px;
+  color: #FFF; 
+  text-decoration: overline;
+}
+
+.has-text-align-center.has-white-color.has-text-color a:hover{
+  font-size: 28px;
+  color: #FFF; 
+  transition: ease all 0.3s;
+  text-decoration: none;
+}
+
+
+.barre {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+/* css template-part-tab */
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.tabs .tabs--ul {
+  display: flex;
+  list-style: none;
+  margin-right: 10px;
+  padding: 0;
+}
+.tabs .tabs--li {
+  flex: 1;
+  text-align: center;
+  box-shadow: 2px 1px 3px #eab676;
+  cursor: pointer;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.tabs .tabs--li:hover{
+  box-shadow: 3px 3px 3px #e39434;
+}
+.tabs a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  color: black;
+}
+.tabs [id]{
+  display: none;
+}
+.tabs [id]:target{
+  display: block;
+}
+@media (max-width: 780px) {
+  .tabs .tabs--ul {
+    flex-direction: column;
+  }
+  .tabs .tabs--li {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+/* css formulaire de contact */
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+  padding: 40px;
+  border: grey;
+}
+.form-container label {
+  display: block;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  color:rgb(80, 80, 80);
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-control {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #eab676;
+  width: 100%;
+  margin-bottom: 3px;
+}
+
+.form-send {
+  background-color: #eab676;
+  color: white;
+  padding: 2px 4px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.form-check-input {
+  margin-top: 15px;
+}
+@media (max-width: 500px){
+    .form-container {
+      width: 90%;
+    }
+  }
+  
+  
+
+ /* css archives-formation */ 
+
+.table{
+  margin-bottom: 100px;
+}
+
+ .span2 h5{
+    font-size: 20px;
+    font-weight: bold;
+ }
+
+.span2{
+    text-align: center;
+}
+
+button >a.btn--crud{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+ }
+
+button >a.btn--crud:hover{
+    cursor: pointer;
+    color: white;
+    transition: 0.2s;
+}
+
+a.link--crud{
+    text-decoration: none;
+    color: rgb(213, 15, 15);
+    font-weight: bold;
+}
+
+a.link--crud:hover{
+    cursor: pointer;
+}
+
+.table td{
+    text-align: center;
+    vertical-align: middle;
+}
+ 
+@media (max-width: 767px) {
+  .table thead tr {
+    display: none;
+    padding-bottom: 15px;
+  }
+  .table td {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .table td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+  }
+}
+
+
+/* css template part TP / Module */
+
+.banner{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.box{
+  background-color: #d35656;
+  -webkit-box-shadow: 5px 5px 5px 3px #e29e9e;
+  -moz-box-shadow: 5px 5px 5px 3px #e29e9e;
+  box-shadow: 5px 5px 5px 3px #e29e9e;
+  width: 80vw;
+  height: 80px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.box>h2{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 400px) {
+  .box>h2 {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+
+/* css menu Accordéon formation à venir */
+
+.accordion-item{
+  background-color: #FFF !important;
+}
+
+.accordion-header {
+  color: #FFF;
+}
+
+.accordion-collapse {
+  background-color: #FFF;
+}
+
+/* css pour la page 404 */
+
+.page--404 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.page--404 img{
+  width: 60vw;
+  height: 400px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.page--404 h1{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* css pour la Map */
+
+.map--greta{
+    justify-content: center;
+}
+
+
+/* css Banner trombinoscope */
+
+.banner--trombi {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ddd;
+  border-radius: 3px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 20px;
+  font-size: 40px;
+  color: #eab676;
+  font-weight: bold;
+  width: 60vw;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 780px) {
+  .banner--trombi{
+    display: none;
+  }
+}
+
+/* css footer */
+
+footer {
+  box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer h5 {
+  font-size: 20px;
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-style: inherit;
+  color: rgb(130, 127, 127);
+}
+
+footer h5:hover {
+  background-color: #eee; 
+  transition: background-color 0.3s ease-in-out;
+}
+
+footer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.col-4 {
+  border-right: 6px solid white;
+}
+
+.col-4:last-child {
+  border-right: none;
+}
+
+footer p{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-style: inherit;
+  color: rgb(130, 127, 127);
+}
